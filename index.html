@@ -58,10 +58,10 @@
                 var form = document.getElementById("formulario"); // pega o formulario
                 valor1 = parseFloat(document.getElementById("conta").value); // coloca o valor atual na variavel v1
                 
-                calculo = Math.sqrt(valor1)
+                calculo = Math.sqrt(valor1);
                 
                 document.getElementById("historico").value += document.getElementById("conta").value +=numero + calculo + " | ";
-                document.getElementById("conta").value = calculo
+                document.getElementById("conta").value = calculo;
             
             }
 
@@ -69,10 +69,10 @@
                 var form = document.getElementById("formulario"); // pega o formulario
                 valor1 = parseFloat(document.getElementById("conta").value); // coloca o valor atual na variavel v1
                 
-                calculo = Math.pow(valor1,2)
+                calculo = Math.pow(valor1,2);
                 
                 document.getElementById("historico").value += document.getElementById("conta").value +=numero + calculo + " | ";
-                document.getElementById("conta").value = calculo
+                document.getElementById("conta").value = calculo;
             
             }
 
@@ -83,25 +83,25 @@
                     calculo = valor1 + valor2;
                     
                     document.getElementById("historico").value += document.getElementById("conta").value +=numero + calculo + " | ";
-                    document.getElementById("conta").value = calculo
+                    document.getElementById("conta").value = calculo;
                 
                 }else if(op == 2){
                     calculo = valor1 - valor2;
                     
                     document.getElementById("historico").value += document.getElementById("conta").value +=numero + calculo + " | ";
-                    document.getElementById("conta").value = calculo
+                    document.getElementById("conta").value = calculo;
                 
                 }else if(op == 3){
                     calculo = valor1 * valor2;
 
                     document.getElementById("historico").value += document.getElementById("conta").value +=numero + calculo + " | ";
-                    document.getElementById("conta").value = calculo
+                    document.getElementById("conta").value = calculo;
                 
                 }else if(op == 4){
                     calculo = valor1 / valor2;
 
                     document.getElementById("historico").value += document.getElementById("conta").value +=numero + calculo + " | ";
-                    document.getElementById("conta").value = calculo
+                    document.getElementById("conta").value = calculo;
                 }
             }
 
@@ -166,7 +166,7 @@
         </div>
 
         <div id="inferior">
-           <p align="left"><font size="1">Por: Thiago Arcanjo, 2022<p>
+           <p align="left"><font size="1">Por: Thiago Arcanjo, 2022</font></p>
         </div>
 
     </body>   
